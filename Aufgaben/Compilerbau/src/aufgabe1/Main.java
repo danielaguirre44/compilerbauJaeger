@@ -41,7 +41,7 @@ class Main {
   static void zeige(Anweisung anweisung) {
     /******************************/
     /* Das muessen Sie schreiben! 
-	  askfdnjsdoafsdnfoasmfkasmkdmsakdmlasdka
+	  askfdnjsnfoasmfkasmkdmsakdmlasdka
     */
     System.out.print("Hier sollte die von Ihnen programmierte ");
     System.out.print("Ausgabe des Programmbaumes stehen!");
