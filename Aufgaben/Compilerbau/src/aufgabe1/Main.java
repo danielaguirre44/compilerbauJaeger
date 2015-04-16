@@ -46,6 +46,42 @@ class Main {
     System.out.print("Ausgabe des Programmbaumes stehen!");
   }
 
+  static void zeige(Ausdruck ausdruck) {
+	  if(ausdruck instanceof Literal ){
+		  System.out.print("Literal("+((Literal)ausdruck).wert+")");
+	  }else if(ausdruck instanceof Variable ){
+		  System.out.print("Variable("+((Variable)ausdruck).name+")");
+	    }else if(ausdruck instanceof Summe ){
+	    	Summe s=(Summe)ausdruck;
+	    	System.out.print("Summe(");
+	    	zeige(s.ausdruck1);
+	    	System.out.println(",");
+	    	zeige(s.ausdruck2);
+	    	System.out.print(")");
+	    }else if(ausdruck instanceof Differenz ){
+	    	Differenz s=(Differenz)ausdruck;
+	    	System.out.print("Differenz(");
+	    	zeige(s.ausdruck1);
+	    	System.out.println(",");
+	    	zeige(s.ausdruck2);
+	    	System.out.print(")");
+	    }else if(ausdruck instanceof Produkt ){
+	    	Produkt s=(Produkt)ausdruck;
+	    	System.out.print("Produkt(");
+	    	zeige(s.ausdruck1);
+	    	System.out.println(",");
+	    	zeige(s.ausdruck2);
+	    	System.out.print(")");
+	    }else if(ausdruck instanceof Quotient ){
+	    	Quotient s=(Quotient)ausdruck;
+	    	System.out.print("Quotient(");
+	    	zeige(s.ausdruck1);
+	    	System.out.println(",");
+	    	zeige(s.ausdruck2);
+	    	System.out.print(")");
+	    	
+	    }	  
+  }
   static void interpretiere(Anweisung anweisung) {
     /******************************/
     /* Das muessen Sie schreiben! Arschwasser */
