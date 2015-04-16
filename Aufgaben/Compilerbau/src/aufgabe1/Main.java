@@ -41,7 +41,6 @@ class Main {
   static void zeige(Anweisung anweisung) {
     /******************************/
     /* Das muessen Sie schreiben! 
-	  askfdnjasmfkasmkdmsakdmlasdka
     */
     System.out.print("Hier sollte die von Ihnen programmierte ");
     System.out.print("Ausgabe des Programmbaumes stehen!");
@@ -49,7 +48,7 @@ class Main {
 
   static void interpretiere(Anweisung anweisung) {
     /******************************/
-    /* Das muessen Sie schreiben! */
+    /* Das muessen Sie schreiben! Arschwasser */
     /******************************/
     System.out.print("Hier sollte die Ausgabe des von Ihnen ");
     System.out.print("programmierten Interpreters stehen!");
