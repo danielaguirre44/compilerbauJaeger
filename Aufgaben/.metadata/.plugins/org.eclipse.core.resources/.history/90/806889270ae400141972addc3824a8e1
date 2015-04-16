@@ -1,7 +1,7 @@
 /*
  * Anweisung.java -- Anweisungen
  */
-package aufgabe1;
+
 
 abstract class Anweisung {
 }

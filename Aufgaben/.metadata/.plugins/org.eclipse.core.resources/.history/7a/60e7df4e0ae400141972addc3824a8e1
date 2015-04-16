@@ -1,7 +1,7 @@
 /*
  * Ausdruck.java -- Ausdruecke
  */
-package aufgabe1;
+
 
 abstract class Ausdruck {
 }
