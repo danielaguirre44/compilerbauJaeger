@@ -3,9 +3,6 @@
  */
 package aufgabe1;
 
-import java.util.HashMap;
-import java.util.Map;
-
 class Main {
 
 	// private static Map<String, Integer> variablen = new HashMap<String,
